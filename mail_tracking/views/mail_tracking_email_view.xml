@@ -105,9 +105,9 @@
                     filter_domain="[('sender', '=', self)]"
                 />
             <field
-                    name="recipient"
-                    string="Recipient"
-                    filter_domain="[('recipient', '=', self)]"
+                    name="recipient_address"
+                    string="Recipient Address"
+                    filter_domain="[('recipient_address', '=', self)]"
                 />
             <field name="name" string="Subject" />
             <field name="time" string="Time" />
